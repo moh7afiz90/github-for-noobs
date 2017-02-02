@@ -1,3 +1,21 @@
-_site/
-.sass-cache/
-.jekyll-metadata
+# Created by https://www.gitignore.io/api/codekit,adobe
+
+### CodeKit ###
+# General CodeKit files to ignore
+config.codekit
+/min
+
+### CodeKit Patch ###
+*/codekit-config.json
+.codekit-cache
+
+
+### Adobe ###
+# Adobe Source Files
+*.psd
+*.ai
+*.indd
+*.prproj
+*.aep
+
+# End of https://www.gitignore.io/api/codekit,adobe
